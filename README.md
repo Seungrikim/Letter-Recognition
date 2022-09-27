@@ -66,5 +66,6 @@ I used the bootstrap to carefully test which model performs best, and Based on b
 
 
 **Table 1**
+
 ![Screen Shot 2022-09-27 at 2 33 37 PM](https://user-images.githubusercontent.com/25239743/192639814-276f76ab-4e7c-486d-b3dc-9735343260f8.png)
 
