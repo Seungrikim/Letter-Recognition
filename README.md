@@ -12,7 +12,7 @@ The file Letters train.csv and Letters test.csv contains 2181 and 935 observatio
 
 ### Start by predicting whether or not the letter is “B”.
 
-#### Baseline
+**#### Baseline**
 
 Before building any models, first consider a baseline method that always predicts the most frequent outcome, which is “not B”, and accuracy of this baseline method on the test set was 0.7465. 
 
@@ -32,7 +32,7 @@ Construct a Random Forest model to predict whether or not the letter is a B with
 
 Random Forest Regressor has best performance(accuracy: 0.9786) on the test set. Accuracy is more important in this application since this application is not about finding the context or importance of the text, but about predicting each letter accurately.
 
-### Predict whether or not a letter is one of the four letters A, B, P or R.
+#### Predict whether or not a letter is one of the four letters A, B, P or R.
 
 #### Baseline
 
