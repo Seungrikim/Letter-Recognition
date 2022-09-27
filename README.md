@@ -12,7 +12,7 @@ The file Letters train.csv and Letters test.csv contains 2181 and 935 observatio
 
 ### Start by predicting whether or not the letter is “B”.
 
-**#### Baseline**
+#### ***Baseline***
 
 Before building any models, first consider a baseline method that always predicts the most frequent outcome, which is “not B”, and accuracy of this baseline method on the test set was 0.7465. 
 
