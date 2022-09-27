@@ -12,23 +12,23 @@ The file Letters train.csv and Letters test.csv contains 2181 and 935 observatio
 
 ### 1. Start by predicting whether or not the letter is “B”.
 
-#### ***- Baseline***
+#### ***Baseline***
 
 Before building any models, first consider a baseline method that always predicts the most frequent outcome, which is “not B”, and accuracy of this baseline method on the test set was 0.7465. 
 
-#### ***- Logistic Regression Model***
+#### ***Logistic Regression Model***
 
 Construct a logistic regression model to Predict whether or not the letter is a B, using the training set to build the model. And accuracy of logistic regression model on the test set, using a threshold of p = 0.5 was 0.9412, and Area under the ROC Curve(AUC) was 0.9775.
 
-#### ***- CART***
+#### ***CART***
 
 Built a CART tree to predict whether or not a letter is a B, using the training set to build the model. I choose the ccp_alpha: 0.001 (from graph of code) picking the one that maximized actually the largest value of CP that achieves the maximum accuracy, and use 5-fold cross validation. The accuracy of this CART model on the test set was 0.9348.
 
-#### ***- Random Forest***
+#### ***Random Forest***
 
 Construct a Random Forest model to predict whether or not the letter is a B with the Random Forest parameters at their default values, and accuracy of this Random Forest model on the test set was 0.9840
 
-#### ***- Compare the accuracy of your logistic regression, CART, and Random Forest models***
+#### ***Compare the accuracy of your logistic regression, CART, and Random Forest models***
 
 Random Forest Regressor has best performance(accuracy: 0.9786) on the test set. Accuracy is more important in this application since this application is not about finding the context or importance of the text, but about predicting each letter accurately.
 
