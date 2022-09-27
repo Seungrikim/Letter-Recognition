@@ -10,13 +10,13 @@ The file Letters train.csv and Letters test.csv contains 2181 and 935 observatio
 
 ## Analytic Models
 
-### Start by predicting whether or not the letter is “B”.
+### 1. Start by predicting whether or not the letter is “B”.
 
-#### ***Baseline***
+#### - ***Baseline***
 
 Before building any models, first consider a baseline method that always predicts the most frequent outcome, which is “not B”, and accuracy of this baseline method on the test set was 0.7465. 
 
-#### ***Logistic Regression Model***
+#### - ***Logistic Regression Model***
 
 Construct a logistic regression model to Predict whether or not the letter is a B, using the training set to build the model. And accuracy of logistic regression model on the test set, using a threshold of p = 0.5 was 0.9412, and Area under the ROC Curve(AUC) was 0.9775.
 
